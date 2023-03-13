@@ -1,0 +1,23 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>A1</servlet-name>
+        <servlet-class>assgn1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>A1</servlet-name>
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>A2</servlet-name>
+        <servlet-class>assgn2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>A2</servlet-name>
+        <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+
+</web-app>
